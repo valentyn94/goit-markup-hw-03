@@ -1,0 +1,286 @@
+/* ===== Normalize ===== */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css");
+
+/* ===== Base styles ===== */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #2e2f42;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* ===== Typography reset ===== */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* ===== Lists reset ===== */
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Buttons ===== */
+.hero-button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* ===== Header contacts hover ===== */
+address a:hover,
+address a:focus {
+  color: #404bbf;
+}
+
+/* ===== Visually hidden ===== */
+.visually-hidden {
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  position: absolute;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Navigation Header ===== */
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo:focus {
+  color: #404bbf;
+}
+
+.logo-accent-header {
+  color: #2e2f42;
+}
+
+.logo-accent {
+  color: #f4f4fd;
+}
+
+.nav-link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+
+.hero-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffff;
+  text-align: center;
+  max-width: 496px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  display: block;
+  padding-top: 188px;
+}
+
+/* ===== Strategy Section ===== */
+.strategy-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  display: flex;
+  max-width: none;
+  margin-bottom: 8px;
+  padding-top: 120px;
+}
+
+.strategy-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.strategy-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: flex;
+  gap: 24px;
+  max-width: 264px;
+  padding-bottom: 120px;
+}
+
+/* ===== Team Section ===== */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-top: 120px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 120px;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+
+.team-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 8px;
+  padding-top: 32px;
+}
+
+.team-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+/* ===== Portfolio Section ===== */
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-top: 120px;
+}
+
+.portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
