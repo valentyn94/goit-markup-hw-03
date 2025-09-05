@@ -3,6 +3,11 @@
   <!--HEAD-->
   <head>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
@@ -57,32 +62,32 @@
       </section>
 
       <!--VALUES SECTION-->
-      <section>
+      <section class="strategy-section">
         <div class="container">
           <h2 class="visually-hidden">Our Values</h2>
           <ul class="strategy-list">
-            <li>
+            <li class="strategy-item">
               <h3 class="strategy-card">Strategy</h3>
               <p class="strategy-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="strategy-item">
               <h3 class="strategy-card">Punctuality</h3>
               <p class="strategy-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="strategy-item">
               <h3 class="strategy-card">Diligence</h3>
               <p class="strategy-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="strategy-item">
               <h3 class="strategy-card">Technologies</h3>
               <p class="strategy-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -99,24 +104,52 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-card">
-              <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
-              <h3 class="team-card-title">Mark Guerrero</h3>
-              <p class="team-card-text">Product Designer</p>
+              <div class="team-card-name">
+                <img
+                  class="img-class"
+                  src="./images/img-3.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                />
+                <h3 class="team-card-title">Mark Guerrero</h3>
+                <p class="team-card-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
-              <img src="./images/img-2.jpg" alt="Tom Ford" width="264" />
-              <h3 class="team-card-title">Tom Ford</h3>
-              <p class="team-card-text">Frontend Developer</p>
+              <div class="team-card-name">
+                <img
+                  class="img-class"
+                  src="./images/img-2.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                />
+                <h3 class="team-card-title">Tom Ford</h3>
+                <p class="team-card-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
-              <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="team-card-title">Camila Garcia</h3>
-              <p class="team-card-text">Marketing</p>
+              <div class="team-card-name">
+                <img
+                  class="img-class"
+                  src="./images/img-1.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                />
+                <h3 class="team-card-title">Camila Garcia</h3>
+                <p class="team-card-text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
-              <img src="./images/img.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="team-card-title">Daniel Wilson</h3>
-              <p class="team-card-text">UI Designer</p>
+              <div class="team-card-name">
+                <img
+                  class="img-class"
+                  src="./images/img.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                />
+                <h3 class="team-card-title">Daniel Wilson</h3>
+                <p class="team-card-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -127,43 +160,79 @@
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
-            <li>
-              <img src="./images/banking.jpg" alt="banking-app" width="360" />
+            <li class="first-portfolio-item">
+              <div class="portfolio-name">
+              <img
+                class="img-class"
+                src="./images/banking.jpg"
+                alt="banking-app"
+                width="360"
+              />
               <h3 class="portfolio-card-title">Banking App</h3>
               <p class="portfolio-card-text">App</p>
+              </div>
             </li>
             <li>
+              <div class="portfolio-name">
               <img
+                class="img-class"
                 src="./images/casheless.jpg"
                 alt="casheless-payment"
                 width="360"
               />
               <h3 class="portfolio-card-title">Cashless Payment</h3>
               <p class="portfolio-card-text">Marketing</p>
+              </div>
+              </li>
             </li>
             <li>
+                <div class="portfolio-name">
               <img
+                class="img-class"
                 src="./images/meditation.jpg"
                 alt="meditation-app"
                 width="360"
               />
               <h3 class="portfolio-card-title">Meditation App</h3>
               <p class="portfolio-card-text">App</p>
+              </div>
             </li>
             <li>
-              <img src="./images/taxi.jpg" alt="taxi-service" width="360" />
+                  <div class="portfolio-name">
+              <img
+                class="img-class"
+                src="./images/taxi.jpg"
+                alt="taxi-service"
+                width="360"
+              />
               <h3 class="portfolio-card-title">Taxi Service</h3>
               <p class="portfolio-card-text">Marketing</p>
+              </div>
             </li>
             <li>
-              <img src="./images/screen.jpg" alt="illustrations" width="360" />
+              <div class="portfolio-name">
+              <img
+                class="img-class"
+                src="./images/screen.jpg"
+                alt="illustrations"
+                width="360"
+              />
               <h3 class="portfolio-card-title">Screen Illustrations</h3>
               <p class="portfolio-card-text">Design</p>
+              </div>
             </li>
             <li>
-              <img src="./images/online.jpg" alt="courses" width="360" />
+              <div class="portfolio-name">
+
+              <img
+                class="img-class"
+                src="./images/online.jpg"
+                alt="courses"
+                width="360"
+              />
               <h3 class="portfolio-card-title">Online Courses</h3>
               <p class="portfolio-card-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
