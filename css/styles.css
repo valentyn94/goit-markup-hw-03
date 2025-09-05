@@ -363,7 +363,7 @@ a {
 .footer {
   background-color: #2e2f42;
   color: #ffffff;
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -372,23 +372,21 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin-top: 16px;
-  padding-bottom: 100px;
 }
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  padding-top: 100px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-accent-footer {
-  padding-top: 100px;
   color: #f4f4fd;
 }
 
